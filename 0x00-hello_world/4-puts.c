@@ -1,4 +1,11 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
+
+/**
+ * main - this is a function to print hello world
+ * Return: success always 0
+ */
 
 int main(void)
 {
