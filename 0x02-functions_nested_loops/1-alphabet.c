@@ -4,9 +4,9 @@
 * print_alphabet -> prints the lowercase alphabets
 */
 
-void prints_alphabet(void)
+void print_alphabet(void)
 {
-	intel j;
+	int j;
 
 	for (j = 'a'; j <= 'z'; j++)
 {
