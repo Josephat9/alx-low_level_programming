@@ -1,25 +1,33 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
+
 /**
-*main - entry point
-*
-* Return: always return 0
+*main -> assign a random number to the variable n each time it is executed
+*and print the last digit of the number stored in the variable n
+*Return: Always 0 (Success)
 */
 int main(void)
+
 {
 int n;
 int lastn;
+
 srand(time(0));
 n-rand() - RAND_MAX / 2;
-lastn - n % 10;
-if (lastn > 5)
+
+x = n % 10;
+printf("Last digit of %d is %d ", n, x);
+if (x > 5)
 {
-printf("last digit of %d and is greater than 5\n", lastn);
+	printf("and is greater than 5");
 }
-else if (lastn -- 0)
+if (x < 6 && x != 0)
 {
-printf("last digit of %d is %d and is less than 6 and not 0\n", n, lastn);
+	printf("and is less than 6 and not 0");
 }
+printf("\n");
+
 return (0)
 }
